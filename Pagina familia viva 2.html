@@ -1,0 +1,243 @@
+<html lang="pt">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Igreja Família Viva de Braga
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <style>
+   .modal {
+      display: none;
+      position: fixed;
+      z-index: 50;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-100 font-roboto">
+  <header class="bg-gray-800 text-white py-4">
+   <h1 class="text-4xl text-center">
+    Igreja Família Viva de Braga
+   </h1>
+  </header>
+  <nav class="bg-gray-700 py-2">
+   <ul class="flex justify-center space-x-4">
+    <li>
+     <a class="text-white text-lg" href="#inicio">
+      Início
+     </a>
+    </li>
+    <li>
+     <a class="text-white text-lg" href="#sobre-nos">
+      Sobre Nós
+     </a>
+    </li>
+    <li>
+     <a class="text-white text-lg" href="#eventos">
+      Eventos
+     </a>
+    </li>
+    <li>
+     <a class="text-white text-lg" href="#localizacao">
+      Localização
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <div class="relative" id="inicio">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center py-8 px-4">
+      <!-- Texto "Seja bem-vindo" -->
+      <div class="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+        <h2 class="text-white text-5xl bg-gray-800 bg-opacity-75 p-4 rounded">
+          Seja bem-vindo à nossa Igreja
+        </h2>
+      </div>
+      <!-- Vídeo -->
+      <div class="w-full md:w-1/2">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Yce_9t9WXPY?si=bCnEprM_lBK9ei3U" title="YouTube video player">
+          </iframe>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto py-8 px-4" id="sobre-nos">
+   <h2 class="text-3xl text-center mb-4">
+    Sobre Nós
+   </h2>
+   <p class="text-lg mb-4">
+    Somos uma comunidade de fé dedicada a seguir os ensinamentos de Jesus Cristo e a servir a comunidade de Braga. Nossa missão é compartilhar o amor de Deus e ajudar as pessoas a encontrar um propósito e significado em suas vidas.
+   </p>
+   <p class="text-lg mb-4">
+    Junte-se a nós em nossos cultos semanais, eventos especiais e atividades comunitárias. Todos são bem-vindos!
+   </p>
+  </div>
+  <div class="container mx-auto py-8 px-4" id="eventos">
+   <h2 class="text-3xl text-center mb-4">
+    Últimas Notícias
+   </h2>
+   <div class="flex flex-wrap justify-around">
+    <div class="bg-white p-4 rounded-lg shadow-lg w-full md:w-1/3 m-2">
+     <img alt="Imagem de um evento comunitário com pessoas reunidas em um parque" class="rounded-lg mb-4" src="https://placehold.co/300x200"/>
+     <h3 class="text-2xl mb-2">
+      Evento Comunitário
+     </h3>
+     <p class="text-lg">
+      Participe do nosso próximo evento comunitário no parque central. Será um dia cheio de atividades, música e confraternização.
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg w-full md:w-1/3 m-2">
+     <img alt="Imagem de uma reunião de estudo bíblico com pessoas sentadas em círculo" class="rounded-lg mb-4" src="https://placehold.co/300x200"/>
+     <h3 class="text-2xl mb-2">
+      Estudo Bíblico
+     </h3>
+     <p class="text-lg">
+      Junte-se ao nosso grupo de estudo bíblico todas as quartas-feiras à noite. Uma oportunidade para aprofundar seu conhecimento e fé.
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg w-full md:w-1/3 m-2">
+     <img alt="Imagem de uma campanha de doação de alimentos com voluntários organizando cestas básicas" class="rounded-lg mb-4" src="https://placehold.co/300x200"/>
+     <h3 class="text-2xl mb-2">
+      Campanha de Doação de Alimentos
+     </h3>
+     <p class="text-lg">
+      Estamos organizando uma campanha de doação de alimentos para ajudar famílias carentes. Contribua com alimentos não perecíveis.
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="container mx-auto py-8 px-4" id="localizacao">
+   <h2 class="text-3xl text-center mb-4">
+    Localização
+   </h2>
+   <div class="flex flex-wrap justify-center">
+    <div class="w-full md:w-1/2 p-2">
+     <iframe allowfullscreen="" class="w-full h-96 rounded-lg shadow-lg" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.836021123456!2d-8.429205684654321!3d41.54503297925179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246b7e1234567%3A0x1234567890abcdef!2sIgreja%20Fam%C3%ADlia%20Viva%20de%20Braga!5e0!3m2!1spt-PT!2spt!4v1611234567890!5m2!1spt-PT!2spt" style="border:0;">
+     </iframe>
+    </div>
+    <div class="w-full md:w-1/2 p-2 flex flex-col justify-center">
+     <h3 class="text-2xl mb-2">
+      Endereço
+     </h3>
+     <p class="text-lg">
+      Rua da Igreja, 123
+     </p>
+     <p class="text-lg">
+      4700-000 Braga, Portugal
+     </p>
+     <p class="text-lg">
+      Telefone: +351 123 456 789
+     </p>
+     <p class="text-lg">
+      Email: contato@igrejafamiliaviva.pt
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="container mx-auto py-8 px-4 text-center">
+   <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-2xl focus:outline-none focus:shadow-outline" id="visitButton">
+    Venha nos Visitar
+   </button>
+  </div>
+  <footer class="bg-gray-800 text-white text-center py-4 relative">
+   <p>
+    © 2025 Igreja Família Viva de Braga. Todos os direitos reservados.
+   </p>
+   <div class="flex justify-center space-x-4 mt-4">
+    <a class="text-white text-2xl" href="https://www.facebook.com" target="_blank">
+     <i class="fab fa-facebook">
+     </i>
+    </a>
+    <a class="text-white text-2xl" href="https://www.instagram.com" target="_blank">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a class="text-white text-2xl" href="https://www.twitter.com" target="_blank">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+   </div>
+   <a class="fixed bottom-4 right-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full shadow-lg focus:outline-none focus:shadow-outline" href="#localizacao">
+    <i class="fas fa-comments">
+    </i>
+   </a>
+  </footer>
+  <div class="modal" id="visitModal">
+   <div class="modal-content">
+    <span class="close" id="closeModal">
+     ×
+    </span>
+    <h2 class="text-2xl mb-4">
+     Venha nos Visitar
+    </h2>
+    <p class="text-lg mb-4">
+     Estamos ansiosos para recebê-lo em nossa igreja. Confira nosso endereço e horários de culto abaixo:
+    </p>
+    <p class="text-lg mb-2">
+     <strong>
+      Endereço:
+     </strong>
+     Rua da Igreja, 123, 4700-000 Braga, Portugal
+    </p>
+    <p class="text-lg mb-2">
+     <strong>
+      Horários de Culto:
+     </strong>
+    </p>
+    <ul class="list-disc list-inside text-lg">
+     <li>
+      Domingo: 10:00 - 12:00
+     </li>
+     <li>
+      Quarta-feira: 19:00 - 20:30
+     </li>
+    </ul>
+    <p class="text-lg mt-4">
+     Para mais informações, entre em contato conosco pelo telefone +351 123 456 789 ou email contato@igrejafamiliaviva.pt.
+    </p>
+   </div>
+  </div>
+  <script>
+   document.getElementById('visitButton').onclick = function() {
+      document.getElementById('visitModal').style.display = 'block';
+    }
+    document.getElementById('closeModal').onclick = function() {
+      document.getElementById('visitModal').style.display = 'none';
+    }
+    window.onclick = function(event) {
+      if (event.target == document.getElementById('visitModal')) {
+        document.getElementById('visitModal').style.display = 'none';
+      }
+    }
+  </script>
+ </body>
+</html>
